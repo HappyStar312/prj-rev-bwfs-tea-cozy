@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  overflow: scroll;
+  margin: 0;
+  display: block;
+  }
+header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+header img {
+  display: inline-flex;
+  height: 50px;
+  margin-left: 10px;
+}
+header ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+header span {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+header a {
+  color: seashell;
+}
+.main {
+  display: block;
+  padding:70px;
+  width:1200px;
+  margin: auto;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  background-image: url("c:/projects/TeaCosy/resources/images/background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+
+}
+.ourmission {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  padding:20px 30px ;
+  width: 1150px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+}
+.ourmission h2,
+.ourmission h4 {
+  margin:auto;
+}
+.ourmission h2 {
+  margin-bottom: 10px;
+}
+.TeaSorts{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width:1000px;
+  align-items: center;
+  margin: 0 auto;
+}
+.month {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1000px;
+  margin: 100px auto 20px auto;
+}
+.month h2,
+.month h4 {
+  margin:auto;
+}
+.month h2 {
+  margin-bottom: 20px;
+}
+
+.row1 {
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-around;
+  text-align: center;
+}
+.row2 {
+  display: inline-flex;
+  width:700px;
+  justify-content: space-around;
+  text-align: center;
+  margin:auto 150px;
+}
+.Teashop img {
+  display: inline-flex;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.Teashop .row1 span {
+  display: inline-flex;
+  padding: 10px 0;
+}
+
+.place {
+  display:block;
+  background-image: url("c:/projects/TeaCosy/resources/images/locations.jpg");
+  width:1200px;
+  height: 570px;
+  margin: 70px auto 0 auto;
+}
+.place h2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  height:30px;
+  padding-top: 70px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.info {
+  display: inline-flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.address {
+  width:300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+  color: white;
+}
+.contact h2,
+.contact h5,
+.contact a{
+  margin: auto;
+}
+a  {
+  text-decoration: none;
+  color: seashell;
+}
+footer{
+  display: flex;
+}
+.copyright {
+  display: inline-flex;
+  align-content: flex-start;
+  margin-left: 20px;
+}
